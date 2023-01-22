@@ -3,17 +3,12 @@ body {
   padding: 0px;
   background-color: #cccccc;
 }
-
-nav {
-  background-color: #444;
-}
-
 ul {
   background-color: #444;
   text-align: center;
+  list-style: none;
   padding: 0px;
   margin: 0px;
-  list-style: none;
 }
 
 li {
@@ -22,6 +17,7 @@ li {
   line-height: 40px;
   height: 40px;
   padding: 20px;
+  display: inline-block;
 }
 
 a {
@@ -29,7 +25,7 @@ a {
   color: #ffffff;
 }
 
-main {
+section {
   margin-left: 20px;
 }
 
