@@ -1,0 +1,51 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+.viewport1 {
+  background-image: linear-gradient(to right, blue, rgb(65, 167, 128));
+  position: relative;
+  height: 350px;
+}
+
+.viewport2 {
+  background-image: linear-gradient(to right, rgb(235, 100, 123), orange);
+  position: relative;
+  height: 400px;
+}
+
+section.card {
+  display: block;
+  position: absolute;
+}
+
+img {
+  width: 250px;
+  padding: 5px;
+}
+
+.card,
+i {
+  position: absolute;
+}
+
+section.sunset {
+  right: 700px;
+  top: 75px;
+}
+section.hills {
+  right: 700px;
+  top: 5px;
+}
+
+i {
+  color: white;
+}
+
+i.fa-star {
+  bottom: 20px;
+  right: 15px;
+}
+
+i.fa-link {
+  bottom: 20px;
+  right: 15px;
+}
