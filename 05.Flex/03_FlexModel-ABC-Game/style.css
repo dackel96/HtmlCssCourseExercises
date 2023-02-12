@@ -1,0 +1,59 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 15vw;
+  max-height: 35rem;
+  gap: 5px;
+}
+
+span {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container :nth-child(1) {
+  order: 90;
+}
+.container :nth-child(2) {
+  order: 20;
+}
+.container :nth-child(3) {
+  order: 100;
+}
+.container :nth-child(4) {
+  order: 40;
+}
+.container :nth-child(5) {
+  order: 80;
+}
+.container :nth-child(6) {
+  order: 70;
+}
+.container :nth-child(7) {
+  order: 110;
+}
+.container :nth-child(8) {
+  order: 50;
+}
+.container :nth-child(9) {
+  order: 60;
+}
+.container :nth-child(10) {
+  order: 120;
+}
+.container :nth-child(11) {
+  order: 10;
+}
+.container :nth-child(12) {
+  order: 30;
+}
