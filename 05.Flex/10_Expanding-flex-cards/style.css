@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(238, 238, 238);
+}
+
+section.container {
+  display: flex;
+  gap: 1rem;
+}
+
+section.container img:nth-child(1),
+section.container img:nth-child(3),
+section.container img:nth-child(4) {
+  width: 100px;
+  object-fit: cover;
+}
+
+section.container img:nth-child(2) {
+  background-color: black;
+  padding: 0 1rem;
+  border-radius: 0.35rem;
+}
+
+img {
+  border-radius: 0.35rem;
+  box-shadow: 0.35rem 0.35rem 1.25rem 0.5rem gray;
+}
